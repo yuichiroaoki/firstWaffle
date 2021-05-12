@@ -1,10 +1,12 @@
 {
-  "name": "firstWaffle",
+  "name": "first-waffle",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "@openzeppelin/contracts": "^4.1.0",
+    "@types/chai": "^4.2.18",
+    "@types/mocha": "^8.2.2",
     "chai": "^4.3.4",
     "ethereum-waffle": "^3.3.0",
     "mocha": "^8.4.0",
@@ -13,7 +15,7 @@
   },
   "scripts": {
     "build": "waffle",
-    "test": "export NODE_ENV=test && mocha 'test/**/*.test.ts'"
+    "test": "set NODE_ENV=test && mocha 'test/**/*.test.ts'"
   },
   "dependencies": {}
 }
